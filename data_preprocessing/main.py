@@ -40,6 +40,9 @@ SC=StandardScaler()
 x_train[:,3:]=SC.fit_transform(x_train[:,3:])
 x_test[:,3:]=SC.fit_transform(x_test[:,3:])
 
+print(x_train)
+print(y_train)
+
 
 
 
